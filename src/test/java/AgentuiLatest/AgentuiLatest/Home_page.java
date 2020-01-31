@@ -52,7 +52,7 @@ public class Home_page
 		Logger log=Logger.getLogger("open browser method");
 		PropertyConfigurator.configure("Log4j.Properties");
 		log.info("start open browser method");
-		f2=new FileInputStream("C:\\Users\\akshita tripathi\\eclipse-workspace\\AgentuiLatest\\TestData\\agentui1.xls");
+		f2=new FileInputStream("TestData/agentui1.xls");
 		Hw=new HSSFWorkbook(f2);
 		Hs=Hw.getSheet("Sheet1");
 		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
