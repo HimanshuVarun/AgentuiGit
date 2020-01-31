@@ -46,7 +46,7 @@ public class Test_Base extends Home_page
 		Ready_button.ReadyExtent();
 		System.out.println("Ready_button test case  is closed");
 	}
-	@Test(priority=3)
+/*	@Test(priority=3)
 	public void preview_test() throws Exception
 	{
 		System.out.println("start preview button test  case");
@@ -166,5 +166,5 @@ public class Test_Base extends Home_page
 		Logout.LogoutExtent();
 	}
 
-
+*/
 }
