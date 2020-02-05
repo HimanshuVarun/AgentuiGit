@@ -123,7 +123,7 @@ public class Home_page
 		//UpdateIp="update agent_live set ip="+MachineIp+" where agent_id="+AgentId;
 		//UpdateIp="update agent_live set ip='172.16.2.60' where agent_id="+AgentId;
 		//UpdateIp="update agent_live set ip='172.16.2.60' where agent_id='AgentId'";
-		UpdateIp="update agent_live set ip='172.16.2.60' where agent_id='2020'";
+		UpdateIp="update agent_live set ip='172.16.2.102' where agent_id='2020'";
 		st.executeUpdate(UpdateIp);
 		System.out.println("IP Updated");
 
