@@ -55,7 +55,7 @@ public class Home_page
 		f2=new FileInputStream("TestData/agentui1.xls");
 		Hw=new HSSFWorkbook(f2);
 		Hs=Hw.getSheet("Sheet1");
-		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
+		System.setProperty("webdriver.gecko.driver","D:\\\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		System.out.println("opening browser");
 		Hs=Hw.getSheet("Sheet1");
